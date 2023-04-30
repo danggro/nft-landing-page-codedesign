@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+.input-hero {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    121.89deg,
+    #ffffff -125.51%,
+    rgba(255, 255, 255, 0) 114.64%
+  );
+}
+
+.text-hero {
+  background: linear-gradient(180deg, #5c3eaf 0%, #d279f5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gdr-auction-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(151, 71, 255, 0.47) -75.4%,
+    rgba(210, 121, 245, 0.06) 100%
+  );
+}
+
+.btn-trans {
+  background: linear-gradient(
+    199.4deg,
+    rgba(255, 255, 255, 0.26) -100.6%,
+    rgba(255, 255, 255, 0) 137.27%
+  );
+}
+
+.gdr-auction-2 {
+  background: linear-gradient(
+    137.8deg,
+    rgba(255, 255, 255, 0.43) -196.41%,
+    rgba(255, 255, 255, 0) 122.07%
+  );
+}
+
+.gdr-categories {
+  background: linear-gradient(
+    180deg,
+    rgba(151, 71, 255, 0.47) -75.4%,
+    rgba(210, 121, 245, 0.06) 100%
+  );
 }
