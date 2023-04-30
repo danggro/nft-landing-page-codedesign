@@ -17,14 +17,14 @@ export default function SectionTopSeller() {
         <div className="text-center">
           <TitleSection>TOP SELLER</TitleSection>
           <div className="flex justify-center gap-10 mt-10">
-            <Seller src={Seller1} alt="Seller1" name="RizKhen" />
-            <Seller src={Seller2} alt="Seller2" name="Jhiehe" />
-            <Seller src={Seller3} alt="Seller3" name="Fukiep" />
-            <Seller src={Seller4} alt="Seller4" name="Hags" />
-            <Seller src={Seller5} alt="Seller5" name="Berhans" />
-            <Seller src={Seller6} alt="Seller6" name="Abdiliee" />
-            <Seller src={Seller7} alt="Seller7" name="Wetur Art" />
-            <Seller src={Seller8} alt="Seller8" name="Pokko" />
+            <Seller href="/" src={Seller1} alt="Seller1" name="RizKhen" />
+            <Seller href="/" src={Seller2} alt="Seller2" name="Jhiehe" />
+            <Seller href="/" src={Seller3} alt="Seller3" name="Fukiep" />
+            <Seller href="/" src={Seller4} alt="Seller4" name="Hags" />
+            <Seller href="/" src={Seller5} alt="Seller5" name="Berhans" />
+            <Seller href="/" src={Seller6} alt="Seller6" name="Abdiliee" />
+            <Seller href="/" src={Seller7} alt="Seller7" name="Wetur Art" />
+            <Seller href="/" src={Seller8} alt="Seller8" name="Pokko" />
           </div>
         </div>
       </Container>

@@ -18,22 +18,34 @@ export default function SectionCategories() {
           <TitleSection>CATEGORIES</TitleSection>
         </div>
         <div className="flex flex-wrap gap-x-2 gap-y-5">
-          <CardCategories src={Art} alt="Art" ctg="Art" />
-          <CardCategories src={Collection} alt="Collection" ctg="Collection" />
-          <CardCategories src={DomainName} alt="DomainName" ctg="Domain Name" />
-          <CardCategories src={Music} alt="Music" ctg="Music" />
+          <CardCategories href="/" src={Art} alt="Art" ctg="Art" />
           <CardCategories
+            href="/"
+            src={Collection}
+            alt="Collection"
+            ctg="Collection"
+          />
+          <CardCategories
+            href="/"
+            src={DomainName}
+            alt="DomainName"
+            ctg="Domain Name"
+          />
+          <CardCategories href="/" src={Music} alt="Music" ctg="Music" />
+          <CardCategories
+            href="/"
             src={Photography}
             alt="Photography"
             ctg="Photography"
           />
-          <CardCategories src={Sport} alt="Sport" ctg="Sport" />
+          <CardCategories href="/" src={Sport} alt="Sport" ctg="Sport" />
           <CardCategories
+            href="/"
             src={TradingCard}
             alt="TradingCard"
             ctg="Trading Card"
           />
-          <CardCategories src={Utility} alt="Utility" ctg="Utility" />
+          <CardCategories href="/" src={Utility} alt="Utility" ctg="Utility" />
         </div>
       </Container>
     </section>
